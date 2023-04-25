@@ -6,7 +6,7 @@ class ColorConst {
   static const Color blue=Color(0xff0e70b9);
   static const Color orange=Color(0xffee741f);
   static const Color green=Color(0xff16b31c);
-  static const Color white=Color(0xffe6e6e6);
+  static const Color white=Colors.white;
   static  Color borderColor=Colors.grey.shade300;
   static  Color textMediumColor=Colors.grey.shade700;
 }

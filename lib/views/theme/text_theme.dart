@@ -4,36 +4,43 @@ import 'package:startup_projects/consts/color_constants.dart';
 
 class TTextTheme {
   static TextTheme textTheme = TextTheme(
-    titleLarge: googleFontsMainHeadings(
+    titleLarge: googleFonts(
       18,
       FontWeight.w500,
       ColorConst.white,
     ),
-    headlineLarge: googleFontsMainHeadings(
+    headlineLarge: googleFonts(
       16,
       FontWeight.w500,
       ColorConst.black,
     ),
-    headlineMedium:googleFontsMainHeadings(
+    headlineMedium: googleFonts(
       14,
       FontWeight.bold,
       ColorConst.black,
     ),
-    headlineSmall:googleFontsMainHeadings(
+    headlineSmall: googleFonts(
       12,
       FontWeight.bold,
       ColorConst.black,
     ),
-    bodyLarge:googleFontsSubHeadings(16,FontWeight.normal,ColorConst.textMediumColor)
+    //sub heading dark color
+    bodyLarge: googleFonts(
+      16,
+      FontWeight.normal,
+      ColorConst.textMediumColor,
+    ),
+    //sub heading light color
+    bodyMedium: googleFonts(
+      16,
+      FontWeight.normal,
+      ColorConst.white,
+    ),
   );
 
-  static TextStyle googleFontsMainHeadings(
+  static TextStyle googleFonts(
       double fontSize, FontWeight fontWeight, Color color) {
     return GoogleFonts.poppins(
-        fontSize: fontSize, fontWeight: fontWeight, color: color);
-  }
-  static TextStyle googleFontsSubHeadings( double fontSize, FontWeight fontWeight, Color color){
-    return  GoogleFonts.poppins(
         fontSize: fontSize, fontWeight: fontWeight, color: color);
   }
 }
