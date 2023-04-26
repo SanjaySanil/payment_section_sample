@@ -12,6 +12,7 @@ class TransactionLimitSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
+      margin: const EdgeInsets.only(bottom: SizeConstants.gap03),
       padding: const EdgeInsets.all(SizeConstants.padding01),
       decoration: BoxDecoration(
         border: Border.all(
@@ -54,7 +55,8 @@ class TransactionLimitSection extends StatelessWidget {
           const SizedBox(
             height: SizeConstants.gap03,
           ),
-           ReusableButton(onTap:(){}, text:TextConst.INCREASELIMIT, borderRadius:5),
+          ReusableButton(
+              onTap: () {}, text: TextConst.INCREASELIMIT, borderRadius: 5),
         ],
       ),
     );

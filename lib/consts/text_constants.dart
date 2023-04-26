@@ -12,8 +12,8 @@ class TextConst {
   static const String AMOUNTRECIVED = "AMOUNT RECEIVED";
   static const String TRANSACTIONS = "Transactions";
   static const String ONLINEPAYMENTS = "Online Payments";
-  static const String BANKACCOUNT = "Transactions";
-  static const String LIFETIME = "Transactions";
+  static const String BANKACCOUNT = "Bank Account";
+  static const String LIFETIME = "Life Time";
   static const String ONHOLD = "On hold";
   static const String PAYOUTS = "Payouts";
   static const String REFUND = "Refunds";

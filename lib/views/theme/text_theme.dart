@@ -6,12 +6,12 @@ class TTextTheme {
   static TextTheme textTheme = TextTheme(
     titleLarge: googleFonts(
       18,
-      FontWeight.w500,
+      FontWeight.w600,
       ColorConst.white,
     ),
     headlineLarge: googleFonts(
       16,
-      FontWeight.w500,
+      FontWeight.w600,
       ColorConst.black,
     ),
     headlineMedium: googleFonts(
@@ -35,6 +35,12 @@ class TTextTheme {
       16,
       FontWeight.normal,
       ColorConst.white,
+    ),
+    //sub heading medium color
+    titleMedium:googleFonts(
+      16,
+      FontWeight.w500,
+      ColorConst.black,
     ),
   );
 
